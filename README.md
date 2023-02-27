@@ -1,6 +1,6 @@
 # Device Fingerprinting through EME Widevine
 
-This project shows how the [W3C EME API](https://www.w3.org/TR/encrypted-media/) can be used to perform fingerprinting of devices using the [Widevine DRM system](https://www.widevine.com/). It collects Widevine Client ID when in clear, and open persistent sessions within the OS file system to provide both statefull and stateless user tracking to curious origins.
+This project shows how the [W3C EME API](https://www.w3.org/TR/encrypted-media/) can be used to perform fingerprinting of devices using the [Widevine DRM system](https://www.widevine.com/). It collects Widevine Client ID when in clear, and open persistent sessions within the OS file system to provide both stateful and stateless user tracking to curious origins.
 
 ## Setup of the Proof-of-Concept
 
