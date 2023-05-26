@@ -7,6 +7,8 @@ This project shows how the [W3C EME API](https://www.w3.org/TR/encrypted-media/)
 To set up a working environment, you need to provide the `index.html` and `script_eme_full.js` to a webpage through HTTPS.
 Replace the rogueUrl variable within the JS script to the url of the server in charge to collect the fingerprints.
 
+As a test, you can open `index.html` as a local file within your web browser and check JS console logs to inspect sent messages.
+
 ## Disclaimer & Responsible Disclosure
 
 This PoC was made in the context of a scientific study and is meant to be used only for academic and educational purposes. Our findings have been timely communicated to all concerned parties following responsible disclosure process. 
