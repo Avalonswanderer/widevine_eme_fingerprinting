@@ -31,7 +31,7 @@ To check network logs and extract fingerprints run the following command:
 $ docker logs docker-emefingerprint-1 2>&1 | grep request -A1 | awk '{print $15}' | tr -d '\n' | awk -F ':' '{print $NF}' | cut -d'"' -f2 | xargs python3 ../utils/get_device_info.py
 ```
 
-And expected output for a Google Pixel 6 running Firefox:
+Here is an expected output for a Google Pixel 6 running Firefox:
 ```bash
 Cert Serial Number: XXXXXXXXXXXXeb24ab4d9025ae96f928bc7cf3169f965946XXXXXXXXXXXXXXXX
 Client Info:
