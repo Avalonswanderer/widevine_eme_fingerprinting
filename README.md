@@ -58,7 +58,6 @@ Client Info:
 	Widevine CDM Version: 4.10.2557.0
 ```
 
-
 ## Disclaimer & Responsible Disclosure
 
 This PoC was made in the context of a scientific study and is meant to be used only for academic and educational purposes. Our findings have been timely communicated to all concerned parties following responsible disclosure process. 
