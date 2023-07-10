@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  emefingerprint:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: emefingerprint
+    environment:
+      - "APACHE_LOG_DIR:/app"
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./.docker/apache:/etc/apache2/sites-available/ssl
+      - ../:/app

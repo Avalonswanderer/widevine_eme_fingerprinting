@@ -7,7 +7,7 @@ let serverCert = fromHexString('080512C7050AC102080312101705B917CC1204868B06333A
 // Tears of Steel Init data Widevine
 let initData = fromHexString('000000447073736800000000edef8ba979d64acea3c827dcd51d21ed0000002408011201311a0d7769646576696e655f74657374220a323031355f74656172732a025344')
 // Rogue License Server
-let rogueUrl = '' // TO REPLACE BY YOUR ROGUE SERVER URL
+let rogueUrl = 'https://localhost' // TO REPLACE BY YOUR ROGUE SERVER URL
 let wasSentToRogue = false
 // License Server URL
 let licenseServerUrl = 'https://proxy.staging.widevine.com/proxy'
