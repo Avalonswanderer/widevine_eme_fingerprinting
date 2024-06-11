@@ -8,7 +8,7 @@ This PoC uses the EME API from compatible web browsers to communicate with the u
 
 Our PoC uses a JavaScript file to request a license key response from the Widevine integration test server and redirects the actual request to a rogue server in charge of collecting fingerprints.
 
-Full details can be found in our [research paper](https://people.irisa.fr/Gwendal.Patat/assets/pdf/your_drm_can_watch_you_too.pdf).
+Full details can be found in our [research paper](https://doi.org/10.56553/popets-2023-0112).
 
 ## Setup of the Proof-of-Concept
 
